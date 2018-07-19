@@ -71,7 +71,6 @@ header a {
 #featured {
   width: 1000px;
   height: 700px;
-  margin: auto;
   padding-top: 70px;
 }
 
@@ -96,8 +95,48 @@ header a {
 }
 
 
-
+/* Locations Section */
 
 #locations {
   width: 1200px;
+  height: 500px;
+  background-image: url("images/img-locations-background.jpg");
+  padding-top: 70px;
+  margin: auto;
+}
+
+
+
+.location {
+  width: 300px;
+  background-color: black;
+  margin: 15px 40px;
+  opacity: 1;
+}
+
+.location h3, p {
+  padding: 20px;
+}
+
+/* Contact Section */
+
+.contact {
+  padding-top: 10px;
+  width: 1200px;
+  height: 200px;
+
+}
+.contact h2 {
+  padding-bottom: 30px;
+}
+
+.contact h5 {
+  padding-bottom: 25px;
+}
+
+/* Footer Section */
+footer {
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
 }
