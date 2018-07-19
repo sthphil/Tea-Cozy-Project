@@ -42,4 +42,27 @@ header nav {
 header a {
   color: Seashell;
   text-decoration: underline;
+  padding: 0 10px;
 }
+
+/* Mission Section */
+
+#mission {
+  height: 700px;
+  padding-top: 69px;
+  width: 1200px;
+  background-image: url("images/img-mission-background.jpg");
+}
+
+#mission h2 {
+  padding: 10px;
+}
+
+#mission .content {
+  margin: auto;
+  width: 100%;
+  padding: 15px;
+  background-color: black;
+}
+
+/* Featured Section */
