@@ -10,6 +10,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+
 }
 
 .flex-content {
@@ -50,8 +51,8 @@ header a {
 #mission {
   height: 700px;
   padding-top: 69px;
-  width: 1200px;
   background-image: url("images/img-mission-background.jpg");
+  width: 1200px;
 }
 
 #mission h2 {
@@ -66,3 +67,37 @@ header a {
 }
 
 /* Featured Section */
+
+#featured {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#featured h2, h4 {
+  padding: 10px;
+}
+
+#featured img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 15px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item span {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+
+
+
+#locations {
+  width: 1200px;
+}
